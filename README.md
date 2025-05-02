@@ -76,11 +76,12 @@ Em seguida, adicione o arquivo gerado `index.html` no seu fork.
 
 Por fim, responda as questões abaixo no seu `fork`: 
 
-1. Repositório selecionado: <URL_DO_REPOSITORIO_SELECIONADO_AQUI>
+1. Repositório selecionado: 
+https://github.com/pallets/flask
 
-2. Gráfico selecionado: <NOME_DO_GRAFICO_SELECIONADO_AQUI>
+2. Gráfico selecionado: 
+"LOC / Python files"
   
-3. Explicação: <EXPLICACAO_AQUI>
-
-
-
+3. Explicação: 
+Ao longo do período de tempo retratado no gráfico, pode-se perceber que o indicador (LOC / Python Files) permanece relativamente constante. Isso mostra um cenário possivelmente inadequado, pois idealmente o indicador deveria diminuir, já que com a aplicação de boas práticas, gera-se maior modularização, o que resulta em um maior número de arquivos, consequentemente reduzindo o (LOC / Python Files). Uma possível hipótese para esse comportamento seria um período de alto desenvolvimento como implementação de novas funcionalidades, mas o período retratado no gráfico é considerável (5 anos) e houveram alterações relativamente recentes (de 2 a 6 meses atrás). Assim, mostra-se que a hipótese tende a não ser verdade. 
+Entretanto, devido ao já baixo (LOC / Python Files), aproximadamente 250 linhas, pode-se considerar que boas práticas já foram aplicadas ao longo dos 5 anos mostrados e que os colaboradores já consideravam esse um bom patamar e, se não realizavam commits específicos de modularização, os commits, em média, tendiam a já ser realizados com boa modularização, o que permitiu que o (LOC / Python Files) se mantivesse relativamente constante e em um nível baixo (ou seja, adequado), ao longo do período analisado.
